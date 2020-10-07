@@ -53,6 +53,7 @@ class tttGame:
         for i in range(6,9):
             print(self.board[i], end = '\t')
         print('')
+        print()
 
 class randPlayer:
     def __init__(self, game):
